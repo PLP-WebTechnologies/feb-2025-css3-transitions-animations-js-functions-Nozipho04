@@ -1,116 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living In The World Of AI</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #272840;
-            font-family: Arial, sans-serif;
-            display: flex;
-            min-height: 100vh;
-        }
-
-        /* Sidebar navigation */
-        .sidebar {
-            width: 200px;
-            background-color: #cbcdf7;
-            padding: 40px 20px;
-        }
-
-        .sidebar ul {
-            list-style: none;
-        }
-
-        .sidebar li {
-            margin-bottom: 20px;
-        }
-
-        .sidebar a {
-            text-decoration: none;
-            color: #272840;
-            font-weight: bold;
-            font-size: 18px;
-            transition: color 0.3s ease;
-        }
-
-        .sidebar a:hover {
-            color: #555;
-        }
-
-        /* Main content */
-        .content {
-            flex: 1;
-            padding: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .image-text {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-
-        .image-text img {
-            width: 300px;
-            max-width: 100%;
-            height: auto;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-15px);
-            }
-
-            100% {
-                transform: translateY(0px);
-            }
-        }
-
-        .image-text h1 {
-            font-size: 48px;
-            color: white;
-            max-width: 400px;
-        }
-    </style>
+    <title>Luméa Skin</title>
 </head>
 
+<style>
+    *{
+        text-decoration: none;
+    }
+    body{
+        background-color: #D3D3D3;
+        min-width: 400px;
+    }
+    .navbar{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-right: 15px;padding-left: 15px;
+    }
+
+    .navdiv{
+        display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo a{font-size: 18px; font-weight: 600; color: black;
+
+    }
+    li{
+        list-style: none;display: inline-block;
+    }
+    li a{
+        color: black;font-size: 23px;font-weight: bold;margin-right: 25px;
+    }
+    h1{
+        margin-left: 20px;
+        font-size: 40px;
+        color: orangered;
+    }
+    p{
+        max-width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        color: black;
+        font-size: 18px;
+    }
+    .mainPic{
+        width: 450px;
+        display: block;
+        margin: 0 auto;
+    }
+    h2{
+        color: orangered;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 40px;
+    }
+    .image{
+        width: 350px;
+        margin-left: 30px;
+    }
+    h3{
+        color: orangered;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .image2{
+        width: 350px;
+        margin-left: 30px;
+        display: block;
+        margin: 0 auto;
+    }
+    h4{
+        font-size: 30px;
+        color: orangered;
+        text-align: center;
+    }
+    .image3{
+        width: 450px;
+        margin-left: 30px;
+        display: block;
+        margin: 0 auto;
+      
+    }
+    .mainPic{
+        animation: bounce 2s ease-in-out;
+    }
+    @keyframes bounce{
+        0%, 100%{
+            transform: translateY(0);}
+        50% {
+            transform: translateY(-20px);
+        }
+        }
+    
+   
+</style>
+
 <body>
-    <!-- Sidebar navigation -->
-    <nav class="sidebar">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">TheGood</a></li>
-            <li><a href="#">TheBad</a></li>
-            <li><a href="#">CLOSING</a></li>
-        </ul>
+    <nav>
+        <div class="navbar">
+            
+            <div class="navdiv">
+            <div class="logo"><a href="#">LUMEA SKIN</a></div>
+            
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Main content -->
-    <div class="content">
-        <div class="image-text">
-            <img src="female-ai-android-face-shot-isolated-transparent-background_879541-1046-removebg-preview.png"
-                alt="Futuristic female AI face">
-            <h1>Living In The World Of AI</h1>
-        </div>
-    </div>
+    <h1>
+        Luméa Skin  
+    </h1>
+    <p>
+        Luméa Skin is a gentle yet effective skincare line crafted specifically for sensitive, oily skin.
+         Our formulas balance
+        oil production while soothing irritation, revealing a calm,
+        radiant complexion without harsh ingredients. 
+    </p>
+    
+     
+    <img src="ChatGPT Image May 9, 2025, 01_20_18 PM.png" class="mainPic">
+    <h2>
+        About Luméa Skin
+    </h2>
+    <p>
+        At Luméa Skin, we believe in the power of nature to gently restore balance. Our products are crafted with skin-loving
+        ingredients like aloe vera and green tea to soothe sensitivity, witch hazel and tea tree to purify without irritation,
+        and fruit extracts such as papaya and cucumber to refresh and clarify. Every formula is thoughtfully blended to support
+        oily, sensitive skin—offering hydration, calm, and a naturally healthy glow without harsh chemicals or heavy residues. 
+    </p>
+    <br>
+    <img src="https://img.freepik.com/premium-photo/portrait-smile-women-with-skincare-cosmetics-dermatology-white-studio-background-face-friends-people-with-beauty-aesthetic-grooming-routine-with-treatment-shine-happiness_590464-485404.jpg" class="image">
+    <img src="https://t4.ftcdn.net/jpg/10/14/78/75/360_F_1014787586_lDMsIrRQGbNRrDD9Xb3Ze8N2J1UPoVgU.jpg" class="image">
+    <img src="https://www.shutterstock.com/shutterstock/videos/3418694531/thumb/1.jpg?ip=x480" class="image">
+     
+    <br>
+    <h3>
+        Introducing the Luméa Skin suncreen and serum
+    </h3>
+    <br>
+    <img src="ChatGPT Image May 9, 2025, 05_39_17 PM.png" class="image2">
+    <img src="ChatGPT Image May 9, 2025, 05_47_11 PM.png" class="image2">
+    <br>
+   <h4>COMING SOON...</h4> 
+   <img src="ChatGPT Image May 9, 2025, 06_22_44 PM.png" class="image3">
 </body>
-
 </html>
+       
+      
